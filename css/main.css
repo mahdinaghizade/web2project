@@ -1,0 +1,125 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: karim3;
+}
+@font-face {
+  font-family: karim;
+  src: url(../woff/Farhang2-Regular.woff);
+}
+@font-face {
+  font-family: karim2;
+  src: url(../woff/Farhang2-ExtraBold.woff);
+}
+@font-face {
+  font-family: karim3;
+  src: url(../woff/Farhang2FaNum-Medium.woff);
+}
+h1,
+h2 {
+  font-family: karim2;
+}
+p {
+  text-align: justify;
+  color: rgba(33, 33, 33, 0.808);
+}
+span {
+  color: brown;
+}
+.back {
+  background-image: url(../media/main_bg.png);
+  background-size: cover;
+  background-color: #f5f5f5;
+  background-attachment: fixed;
+  direction: rtl;
+  font-family: karim;
+}
+
+.preheader {
+  background-color: rgb(255, 255, 255);
+  box-shadow: 0px 3px 8px 0px rgba(0, 0, 0, 0.1);
+}
+
+.logo {
+  width: 50%;
+}
+
+.nav-link {
+  color: rgb(148, 153, 160);
+}
+
+.nav-link:hover {
+  color: rgb(0, 0, 0) !important;
+  border-bottom: 2px solid #ff8488;
+}
+
+.page_one {
+  margin: 150px auto;
+  font-size: 19px;
+  box-shadow: 3px 3px 10px 0.5px rgba(0, 0, 0, 0.272);
+}
+
+.radifone {
+  background-image: url(../media/main_bg.png);
+  background-size: 850px;
+  background-repeat: no-repeat;
+  background-color: #f8686d;
+}
+
+.radifone > img {
+  position: relative;
+  width: 350px;
+}
+
+.radifone > img:hover {
+  box-shadow: 5px 5px 15px 2px black;
+}
+
+.radiftwo {
+  background: #fd9c9c2b;
+
+  height: 50%;
+  box-shadow: 0px 3px 8px 0px rgba(0, 0, 0, 0.1);
+}
+.mosh {
+  list-style: none;
+  line-height: 50px;
+}
+.name {
+  /* margin-left: 50px; */
+  width: auto;
+}
+.val {
+  width: 60px;
+  font-family: karim3;
+}
+
+.khadamat {
+  margin-top: 250px;
+  height: auto;
+}
+
+.list {
+  line-height: 50px;
+}
+
+.mobin {
+  width: 250px;
+  margin: 35px auto;
+}
+.tabi{
+  margin-top: 250px;
+  margin-bottom: 250px;
+}
+
+.men{
+  display: flex;
+  margin-top: 50px;
+  flex-direction: row;
+  justify-content: space-around;
+}
+.iimg{
+  width: 150px;
+  height: 200px;
+}
